@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('Imagenes/fondo.jpg');
+    background-size: 50% 53%;
+    
+}
+
+.Form-registro {
+    width: 950px;
+    background: #24303c;
+    padding: 20px;
+    margin: auto; 
+    margin-top: 30px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: white;
+
+}
+
+.Form-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+    width: 95%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px; /*espacio entre cuadrados*/
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: aliceblue;
+
+}
+
+
+.Form-registro label {
+    width: 100%;
+    color: white;
+    padding: 160px;
+    
+    
+}
+
+.Form-registro .boton{
+    width: 80%;
+    background: #1f53c5;
+    border-radius: 50px;
+    border: 1px solid #1f53c5;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    margin-left: 100px;
+    
+
+}
+
+.Form-registro .din-numero label i{
+
+    width: 95%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  
+
+
+}
+.Form-registro .control-chico{
+    width: 20%;
+    background: #24303c;
+    padding: 12px; /*ancho del cuadrado*/
+    border-radius: 4px;
+    margin-bottom: 16px; /*espacio entre cuadrados paara abajo*/
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: aliceblue;
+    margin-right: 120px;
+    margin-left: 90px;
+    
+}
+
+.Form-registro .nuevo h4{
+    color: rgb(255, 255, 255);
+    font-family: 'calibri';
+    font-size: 20px; 
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0PX;
+
+
+}
+
+#opciones{
+    width: 50%; /* Ajustar el ancho al 100% del contenedor */
+    height: 30px; /* Establecer la altura deseada */
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    border-radius: 4px;
+    background: #24303c;
+    color: white;
+    font-size: 18px;
+
+}
+
+.Form-registro .txtform .mi-checkbox{
+    margin-right: 70px;
+    font-family: 'calibri';
+    margin-bottom: 10px;
+    width: 30px;
+    height: 20px;
+    
+
+}
+
+.txtform{
+    font-size: 20px;
+}
+
+.boton2{
+    background: #1f53c5;
+    margin-right: 5px;
+
+    width: 10%;
+    background: #1f53c5;
+    border-radius: 5px;
+    border: 1px solid #1f53c5;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 15px;
+    
+
+
+}
+
+.control-chico2 {
+    width: 20%;
+    background: #24303c;
+    padding: 12px; /*ancho del cuadrado*/
+    border-radius: 4px;
+    margin-bottom: 16px; /*espacio entre cuadrados paara abajo*/
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: aliceblue;
+    
+    margin-left: 15px;
+    margin-right: 50px;
+
+}
+
+.alerta{
+    text-align: center;
+    font-size: 40px;
+}
